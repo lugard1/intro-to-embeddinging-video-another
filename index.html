@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7818daa723.js" crossorigin="anonymous"></script>
+    <title>Embedding video and Playlist</title>
+</head>
+<body>
+    <div id="container">
+        <div id="nav-bar">
+            <div class="icons">
+                <div class="i-one">
+                    <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+                    <a href="#"><ion-icon id="logo" name="logo-youtube"></ion-icon>YouTube<sup>BIAFR</sup></a>
+                </div>
+                <div class="i-two">
+                    <input type="text" name="in-1st" size= 80 id="search" placeholder="search">
+                    <a href="#"><ion-icon name="search-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="mic-outline"></ion-icon></a>
+                </div>
+                <div class="i-three">
+                    <a href="#"><ion-icon name="videocam-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="notifications-outline"></ion-icon></a>
+                    <a href="#"><input type="radio" id="radio" style="height:30px; width:30px; vertical-align: middle" placeholder="T"></a>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ?start=3"
+                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <h2>Embed Videos and playlist</h2>
+                <button>unlisted</button>
+            </div>
+            <div class="playlist">
+                <div class="headerpl">
+                    <input type="text" id="ip1" placeholder="All">
+                    <input type="text" id="ip2" placeholder="New to you">
+                    <input type="text" id="ip3" placeholder="Listenable">
+                    <input type="text" id="ip4" placeholder="Recently Uploaded">
+                    <input type="text" id="ip5" placeholder="Watched">
+                </div>
+                <div class="containerpl">
+                    <div class="plist-video1">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/u7QZOVoAWQ4" title="YouTube
+                        video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                        gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                        <div>
+                           <h4>Jennifer Eliogu - Onulu ube(Official video)</h4>
+                        </div>
+                    </div>    
+                    <div class="plist-video2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xZsojox79ig"
+                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                        <div class="plist-t2">
+                          <h4>Flavour - Levels(Official Video)</h4>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">
+            &copy 2022, Agu<i>Lugard.</i>
+        </div>
+        <div class="contact">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-github"></ion-icon></a><br>
+            <a href="agulugard@gmail.com"><ion-icon name="mail-outline"></ion-icon><p><strong>send mail.</strong></p></a><br>
+            <ion-icon name="location-outline"></ion-icon><span>Biafra.</span>   
+            <p></p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>    
+</body>
+</html>
